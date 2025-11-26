@@ -25,7 +25,6 @@ function HomePage() {
 
             <div className="right-section">
                 <a className="orders-link header-link" href="orders.html">
-
                     <span className="orders-text">Orders</span>
                 </a>
 
