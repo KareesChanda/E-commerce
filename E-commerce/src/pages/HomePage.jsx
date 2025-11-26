@@ -5,6 +5,7 @@ import './HomePage.css'
 function HomePage() {
   return (
     <>
+    <title>Trade Post</title>
         <div className="header">
             <div className="left-section">
                 <a href="index.html" className="header-link">
