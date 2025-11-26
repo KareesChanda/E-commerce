@@ -1,16 +1,19 @@
 import React from "react";
-import './checkout-header.css'
-import './CheckoutPage.css';
+import Header from "../components/Header";
+import "./checkout-header.css";
+import "./CheckoutPage.css";
 
 function CheckoutPage() {
   return (
     <>
-    <title>Checkout</title>
-    
+      <title>Checkout</title>
+
+      <Header />
+
       <div className="checkout-header">
         <div className="header-content">
           <div className="checkout-header-left-section">
-            < a href="/">
+            <a href="/">
               <img className="logo" src="images/logo.png" />
               <img className="mobile-logo" src="images/mobile-logo.png" />
             </a>
