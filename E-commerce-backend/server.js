@@ -2,6 +2,7 @@ import express from "express";
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import productRoutes from './routes/products.js';
 
 //const express = reqiure('express');
 const app = express();
