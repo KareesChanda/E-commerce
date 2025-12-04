@@ -22,6 +22,7 @@ if (isUsingRDS) {
     dialect: dbType,
     logging: false
   });
+  
 } else {
   sequelize = new Sequelize({
     dialect: 'sqlite',
